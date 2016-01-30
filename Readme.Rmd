@@ -1,0 +1,20 @@
+---
+title: "Getting and cleaning data Readme"
+author: "Juri van de Gevel"
+date: "30 januari 2016"
+output: html_document
+---
+
+###Explanation for run_analysis.R
+The script has the following functionality (numbers refer to blocks of code in the script):
+
+1. Reads info about the features and activity names
+2. Reads the training data and test data
+3. Merges the test and training data into one dataset
+4. Creates a new dataset with the mean calculated per activity and subject
+5. Stores the new dataset in a .txt file
+
+Note: for the code to provide the expected output, the data should exist in your working directory!
+
+
+
